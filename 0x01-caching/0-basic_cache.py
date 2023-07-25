@@ -9,10 +9,6 @@ class BasicCache(BaseCaching):
     """
     representing the class BaseCaching
     """
-    def __init__(self):
-        # call the parent class constructor to initialize the cache_data dict
-        super().__init__()
-
     def put(self, key, item):
         #  check if key or item are not none,
         #  and proceed to assign the item value to the key in cache_data dict
