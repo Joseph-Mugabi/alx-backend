@@ -8,9 +8,9 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-strict_slashes=False
+strict_slashes = False
 @app.route("/")
-def welcome():
+def welcome_HBN():
     """renders 0-index.html"""
     return render_template("0-index.html")
 
